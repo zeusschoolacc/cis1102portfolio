@@ -83,6 +83,8 @@ body {
     height: 65vh;
     margin-top: -38vh;
     margin-left: -20vw;
+    width: auto;
+    max-width: 100%;
 }
 
 .about h1 {
@@ -99,6 +101,8 @@ body {
     height: 70vh;
     justify-content: center;
     margin-bottom: -2vh;
+    width: auto;
+    max-width: 100%;
 }
 
 .posts {
