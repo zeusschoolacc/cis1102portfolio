@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Orbitron&family=Oswald&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Orbitron&family=Oswald&family=Poppins:wght@300&family=Satisfy&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+
+.home {
+    align-items: center;
+}
+
+.hook {
+    display: flex;
+    margin: 8rem 2rem;
+    margin-bottom: 10rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hook img {
+    display: block;
+    margin-right: -6rem;
+    height: 55vh;
+    width: auto;
+    max-width: 100%;
+}
+
+.hook h2 {
+    font-size: 12vh;
+    text-align: center;
+}
+
+.shortIntro {
+    display: flex;
+    background-color: rgba(10, 10, 10, 2);
+    font-size: 2.5vh;
+    padding-top: 5rem;
+    padding: 3rem 2rem;
+    margin: 5rem;
+    margin-top: 30rem;
+    margin-bottom: 20rem;
+    color: white;
+    justify-content: space-between;
+    gap: 4vw;
+    border-radius: 2rem;
+}
+
+.shortIntro p {
+    text-align: justify;
+}
+
+.shortIntro h2 {
+    font-size: 4vh;
+}
+
+.shortIntro .leftSide {
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+    margin-left: 2vh;
+}
+
+.shortIntro img {
+    display: flex;
+    height: 60vh;
+    width: auto;
+    max-width: 100%;
+    margin-bottom: -3rem;
+}

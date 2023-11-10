@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    font-size: 2vh;
+    background-color: rgba(0,0,0,2);
+    margin: -0.5rem -0.5rem;
+    padding: 0rem 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .info {
+    display: block;
+    list-style: none;
+    text-decoration: none;
+}
+
+footer img {
+    height: 18vh;
+}
