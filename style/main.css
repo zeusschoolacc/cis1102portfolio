@@ -4,7 +4,6 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    scroll-padding-top: 28vh;
 }
 
 body {
@@ -184,7 +183,6 @@ body {
     justify-items: center;
     scroll-snap-align: center;
     margin: 0 40vw;
-    background-color: black;
     padding: 0 2vw;
     padding-top: 4vh;
     padding-bottom: -20vh;
