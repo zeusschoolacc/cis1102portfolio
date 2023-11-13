@@ -3,6 +3,8 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    scroll-padding-top: 28vh;
 }
 
 body {
@@ -143,4 +145,58 @@ body {
     font-size: 10vh;
     justify-content: center;
     margin-top: -33vh;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-top: 20vh;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1vh 2vw;
+    border-radius: 20px;
+}
+
+.menu a:hover {
+    color: black;
+    background-color: white;
+    transition: 0.9s;
+}
+
+.scrollImages {
+    display: flex;
+    overflow: auto;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    margin: 10vh 2vw;
+    height: 70vh;
+}
+
+.scrollImages section {
+    display: grid;
+    justify-items: center;
+    scroll-snap-align: center;
+    margin: 0 40vw;
+    background-color: black;
+    padding: 0 2vw;
+    padding-top: 4vh;
+    padding-bottom: -20vh;
+    border-radius: 20px;
+}
+
+.scrollImages img {
+    height: 40vh;
+    margin-bottom: -15vh;
+    border-radius: 10px;
+}
+
+.scrollImages p {
+    width: 50vw;
 }
