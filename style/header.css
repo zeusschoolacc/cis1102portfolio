@@ -2,7 +2,8 @@ nav {
     display: flex;
     font-size: 2vh;
     background-color: rgba(0,0,0,2);
-    margin: -0.6vh -0.4vw;
+    margin: 0vh -0.5vw;
+    margin-top: -1.3vh;
     padding: 1vh 4vw;
     align-items: center;
     justify-content: space-between;
